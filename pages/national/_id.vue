@@ -1,7 +1,7 @@
 <template>
-  <section class="branch" v-if="branch">
-    <h1 class="branch__name">{{ branch.name }}</h1>
-    <p class="branch__info">{{ branch.info }}</p>
+  <section class="card" v-if="branch">
+    <h1 class="card__name">{{ branch.name }}</h1>
+    <p class="card__info">{{ branch.info }}</p>
   </section>
 </template>
 <script>

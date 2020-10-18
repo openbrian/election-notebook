@@ -1,14 +1,14 @@
 <template>
   <section class="home">
     <h1 class="home__heading">3 Branches of Federal Government</h1>
-    <div class="branches">
+    <div class="cards">
       <div
-        class="branch__container"
+        class="card__container"
         v-for="branch in branches"
         :key="branch.id"
         @click.prevent="storeBranchInfo(branch)"
       >
-        <p class="branch__name">
+        <p class="card__name">
           <nuxt-link
             :to="{ name: 'national-id', params: { id: branch.id, dir: branch } }"
           >{{ branch.name }}</nuxt-link>

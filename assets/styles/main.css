@@ -51,7 +51,7 @@ a {
 .home__heading {
   text-align: center;
 }
-.branches {
+.cards {
   display: flex;
   box-sizing: border-box;
   padding: 10px;
@@ -61,11 +61,11 @@ a {
   justify-content: center;
 }
 @media (min-width: 768px) {
-  .branches {
+  .cards {
     justify-content: space-between;
   }
 }
-.branch__container {
+.card__container {
   width: 100%;
   max-width: 220px;
   cursor: pointer;
@@ -77,10 +77,10 @@ a {
   justify-content: center;
   align-items: center;
 }
-.branch__name {
+.card__name {
   text-align: center;
 }
-.branch {
+.card {
   width: 100%;
   margin: 50px auto;
   max-width: 450px;
@@ -89,7 +89,7 @@ a {
   box-sizing: border-box;
   padding: 10px 0;
 }
-.branch__info {
+.card__info {
   padding-left: 10px;
   line-height: 22px;
   padding-right: 10px;

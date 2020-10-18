@@ -13,6 +13,9 @@
         <nuxt-link to="/about">About</nuxt-link>
       </div>
       <div class="nav__link">
+        <nuxt-link to="/parties">Parties</nuxt-link>
+      </div>
+      <div class="nav__link">
         <nuxt-link to="/national">National</nuxt-link>
       </div>
       <div class="nav__link">
@@ -20,6 +23,9 @@
       </div>
       <div class="nav__link">
         <nuxt-link to="/local">Local</nuxt-link>
+      </div>
+      <div class="nav__link">
+        <nuxt-link to="/election_2020">2020 Election</nuxt-link>
       </div>
     </nav>
   </header>

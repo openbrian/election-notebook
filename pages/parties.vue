@@ -20,25 +20,50 @@
 export default {
   name: "about-nuxt",
   data() {
+    let parties = [
+      {
+        id: "democrate",
+        name: "Democratic Party",
+      },
+      {
+        id: "republican",
+        name: "Republican Party",
+      },
+      {
+        id: "libertarian",
+        name: "Libertarian Party",
+      },
+      {
+        id: "green",
+        name: "Green Party",
+      },
+      {
+        id: "cpnys",
+        name: "Conservative Party of New York State",
+      },
+      {
+        id: "const",
+        name: "Constitution Party",
+      },
+      {
+        id: "work_fam",
+        name: "Working Families Party",
+      },
+      {
+        id: "soc_lib",
+        name: "Party for Socialism and Liberation",
+      },
+      {
+        id: "peace",
+        name: "Peace and Freedom Party",
+      },
+      {
+        id: "womens_eq",
+        name: "Women's Equality Party",
+      }
+    ];
     return {
-      parties: [
-        {
-          id: "democrate",
-          name: "Democrat",
-        },
-        {
-          id: "republican",
-          name: "Republican",
-        },
-        {
-          id: "libertarian",
-          name: "Libertarian",
-        },
-        {
-          id: "green",
-          name: "Green",
-        }
-      ]
+      parties: parties.sort(() => 0.5 - Math.random())
     };
   },
   methods: {

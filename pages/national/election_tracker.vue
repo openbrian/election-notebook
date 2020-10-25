@@ -2,7 +2,7 @@
   <div>
     <svg id="p" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1235" height="650" viewBox="0 0 500 500">
       <defs>
-        <rect id="b" width="16" height="16" stroke="#333333" stroke-width="1" fill="#eeeeee" rx="1"/>
+        <rect id="b" width="16" height="16" stroke="#333333" stroke-width="1" fill="#eeeeee" rx="1" x="2"/>
       </defs>
       <rect width="500" height="500" fill="#fff" stroke="#333"/>
     </svg>

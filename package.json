@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt-ts build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "dev": "nuxt-ts",
     "generate": "nuxt-ts generate",
     "predeploy": "nuxt generate",
@@ -29,6 +29,7 @@
     "gh-pages": "^3.1.0",
     "jest": "^26.5.0",
     "prettier": "^2.1.2",
+    "push-dir": "^0.4.1",
     "ts-jest": "^26.4.1",
     "vue-jest": "^3.0.4"
   }

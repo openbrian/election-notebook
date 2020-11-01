@@ -38,6 +38,9 @@
         </template>
       </v-simple-table>
     </v-sheet>
+    <p>
+      <a href="https://en.wikipedia.org/wiki/2020_United_States_Senate_elections">2020 United States Senate Election on Wikipedia</a>
+    </p>
   </div>
 </template>
 <script>

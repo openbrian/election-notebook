@@ -24,6 +24,10 @@
       <p>
         <nuxt-link :to="{name: 'election-tracker_president'}">presidential election tracker</nuxt-link>
       </p>
+      <h1>State</h1>
+      <p>
+        <nuxt-link :to="{name: 'election-2020-senate_tracker'}">2020 senate election tracker</nuxt-link>
+      </p>
       <h2>US Senate - Virginia</h2>
       <v-sheet width="400">
         <v-simple-table>

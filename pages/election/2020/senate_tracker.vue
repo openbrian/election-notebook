@@ -27,7 +27,7 @@
               <td><span class="person" :class="item.incumbent.party">{{ item.incumbent.name }} ({{item.incumbent.party}})</span></td>
               <td>
                 <ul class="candidates">
-                  <li class="person" :class="c.party" v-for="c in item.candidates">{{ c.name }} ({{c.party}})</li>
+                  <li class="person" :class="c.party" v-for="c in item.candidates"><input type="checkbox" /> {{ c.name }} ({{c.party}})</li>
                 </ul>
               </td>
             </tr>

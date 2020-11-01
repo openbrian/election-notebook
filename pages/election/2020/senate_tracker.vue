@@ -573,7 +573,7 @@ export default {
 }
 .person {
   display: inline-block;
-  width: 200px;
+  width: 220px;
   padding: 2px;
   margin: 4px;
   border: 1px #D8D8D8 solid;

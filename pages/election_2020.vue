@@ -1,6 +1,9 @@
 <template>
   <section>
     <section>
+      <p>
+        <nuxt-link :to="{name: 'election-2020-word_search'}">2020 Word Search</nuxt-link>
+      </p>
       <h1>National</h1>
       <h2>President</h2>
       <v-sheet width="400">
@@ -78,6 +81,10 @@ export default {
           name: 'Jo Jorgensen / Spike Cohen',
           party: 'Libertarian',
         },
+        {
+          name: 'Howie Hawkins / Angela Walker',
+          party: 'Green',
+        }
       ],
       senate_va_candidates: [
         {

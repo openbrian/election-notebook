@@ -18,6 +18,7 @@
     <p>
       <a href="https://www.usa.gov/branches-of-government">Branches of the U.S. Government</a>
     </p>
+    <img alt="map of usa" src="~/assets/Map_of_USA_States_with_names_white.svg" />
   </section>
 </template>
 <script>

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/election/tracker_president", {data:[{}],fetch:[],mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/election_2020", {data:[{}],fetch:[],mutations:[]});

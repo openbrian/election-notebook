@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/election/2020/senate_tracker", {data:[{}],fetch:[],mutations:[]});

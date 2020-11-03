@@ -1,8 +1,10 @@
 <template>
   <div>
-    <Nav />
-    <Nuxt />
-    <Footer />
+    <v-app>
+      <Nav />
+      <Nuxt />
+      <Footer />
+    </v-app>
   </div>
 </template>
 <script>

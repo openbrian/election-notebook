@@ -33,11 +33,6 @@
     <p>
       <a href="https://www.usa.gov/branches-of-government">Branches of the U.S. Government</a>
     </p>
-    <v-footer absolute>
-      <v-col class="text-center" cols="12">
-        Source
-      </v-col>
-    </v-footer>
   </section>
 </template>
 <script>

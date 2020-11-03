@@ -2,18 +2,16 @@
   <div>
     <Nav />
     <Nuxt />
-    <v-footer absolute>
-      <v-col class="text-center" cols="12">
-        Source
-      </v-col>
-    </v-footer>
+    <Footer />
   </div>
 </template>
 <script>
   import Nav from "~/components/navBar.vue"
+  import Footer from "~/components/footer.vue"
   export default {
     components: {
-      Nav
+      Nav,
+      Footer,
     }
   }
 </script>

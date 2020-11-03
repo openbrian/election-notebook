@@ -5,25 +5,7 @@
         election-notebook
       </h1>
       <div class="subtitle">
-        a guide to the 2020 election
-      </div>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/openbrian/election-notebook"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          Source
-        </a>
+        a 2020 election tracker
       </div>
     </div>
   </div>

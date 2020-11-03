@@ -19,13 +19,13 @@
             </v-list-item>
           </v-list>
         </v-card-text>
-        <v-card-actions>
-          <v-btn>
-            <nuxt-link
-              :to="{ name: 'national-id', params: { id: branch.id, dir: branch } }"
-            >more info</nuxt-link>
-          </v-btn>
-        </v-card-actions>
+<!--        <v-card-actions>-->
+<!--          <v-btn>-->
+<!--            <nuxt-link-->
+<!--              :to="{ name: 'national-id', params: { id: branch.id, dir: branch } }"-->
+<!--            >more info</nuxt-link>-->
+<!--          </v-btn>-->
+<!--        </v-card-actions>-->
       </v-card>
     </div>
     <img alt="map of usa" src="~/assets/Map_of_USA_States_with_names_white.svg" />

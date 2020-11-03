@@ -19,10 +19,10 @@
         <nuxt-link to="/national">National</nuxt-link>
       </div>
       <div class="nav__link">
-        <nuxt-link to="/state">State</nuxt-link>
+        State
       </div>
       <div class="nav__link">
-        <nuxt-link to="/local">Local</nuxt-link>
+        Local
       </div>
       <div class="nav__link">
         <nuxt-link to="/election_2020">2020 Election</nuxt-link>

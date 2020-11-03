@@ -2,17 +2,17 @@
   <section class="home">
     <h1 class="home__heading">3 Branches of Federal Government</h1>
     <div class="cards">
-      <v-card elevation="5" min-width="250px" v-for="branch in branches">
+      <v-card elevation="5" min-width="250px" v-for="branch in branches" v-bind:key="branch.id">
         <v-card-title>{{ branch.name }}</v-card-title>
         <v-card-subtitle>{{ branch.info }}</v-card-subtitle>
         <v-card-text>
           <v-list>
-            <v-list-item v-for="a in branch.has">
+            <v-list-item v-for="a in branch.has" v-bind:key="a.name">
               <v-list-item-content>
                 <v-list-item-title>{{ a.name }}</v-list-item-title>
                 <v-list>
-                  <v-list-item v-for="b in a.has">
-                    <v-list-item-title>{{ b }}</v-list-item-title>
+                  <v-list-item v-for="b in a.has" v-bind:key="b.name">
+                    <v-list-item-title>{{ b.name }}</v-list-item-title>
                   </v-list-item>
                 </v-list>
               </v-list-item-content>
@@ -49,7 +49,10 @@ export default {
           has: [
             {
               name: "Congress",
-              has: ["Senate", "House of Representatives"],
+              has: [
+                { name: "Senate" },
+                { name: "House of Representatives" }
+                ],
             }
             ],
         },
@@ -60,7 +63,10 @@ export default {
           has: [
             {
               name: "President",
-              has: ["Vice President", "Cabinet"],
+              has: [
+                { name: "Vice President" },
+                { name: "Cabinet" }
+                ],
             }
           ],
         },

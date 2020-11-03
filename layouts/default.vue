@@ -2,6 +2,11 @@
   <div>
     <Nav />
     <Nuxt />
+    <v-footer absolute>
+      <v-col class="text-center" cols="12">
+        Source
+      </v-col>
+    </v-footer>
   </div>
 </template>
 <script>

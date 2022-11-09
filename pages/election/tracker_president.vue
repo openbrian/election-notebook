@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>2020 Senate Election Tracker</h1>
+    <h1>2020 Presidential Election Tracker</h1>
     <p>
       Each states gets a number of electoral votes based on its population.
     </p>

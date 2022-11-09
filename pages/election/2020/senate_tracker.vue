@@ -17,18 +17,27 @@
           <thead>
             <tr>
               <th>Election</th>
-              <th>Before Election</th>
-              <th>Candidates (excluding write-ins)</th>
+              <th>Info</th>
             </tr>
           </thead>
           <tbody>
-            <tr v-for="item in states" :key="item.name">
+            <tr v-for="item in states">
               <th>{{ item.id }} {{ item.special ? "special" : ""}}</th>
-              <td><span class="person" :class="item.incumbent.party">{{ item.incumbent.name }} ({{item.incumbent.party}})</span></td>
               <td>
-                <ul class="candidates">
-                  <li class="person" :class="c.party" v-for="c in item.candidates"><input type="checkbox" /> {{ c.name }} ({{c.party}})</li>
-                </ul>
+                <table>
+                  <tr>
+                    <th>current</th>
+                    <td><span class="person" :class="item.incumbent.party">{{ item.incumbent.name }} ({{item.incumbent.party}})</span></td>
+                  </tr>
+                  <tr>
+                    <th>candidates</th>
+                    <td colspan="1">
+                      <ul class="candidates">
+                        <li class="person" :class="c.party" v-for="c in item.candidates"><input type="checkbox" /> {{ c.name }} ({{c.party}})</li>
+                      </ul>
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
           </tbody>
@@ -85,7 +94,7 @@
     <p>
       The senate is controlled by the party with the most senators.
     </p>
-    <v-sheet width="800">
+    <v-sheet>
       <v-simple-table>
         <template v-slot:default>
           <thead>
@@ -570,10 +579,10 @@ export default {
 <style>
 .candidates {
   list-style-type: none;
+  padding: 0 !important;
 }
 .person {
   display: inline-block;
-  width: 220px;
   padding: 2px;
   margin: 4px;
   border: 1px #D8D8D8 solid;

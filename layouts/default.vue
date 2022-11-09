@@ -18,6 +18,9 @@
   }
 </script>
 <style>
+v-app {
+  background-color: blue;
+}
 html {
   font-family:
     'Source Sans Pro',

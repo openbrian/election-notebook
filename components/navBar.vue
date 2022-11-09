@@ -27,6 +27,9 @@
       <div class="nav__link">
         <nuxt-link to="/election_2020">2020 Election</nuxt-link>
       </div>
+      <div class="nav__link">
+        <nuxt-link to="/election_2022">2022 Election</nuxt-link>
+      </div>
     </nav>
   </header>
 </template>

@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="title">
-        election-notebook
-      </h1>
+      <div class="title">
+        Election Notebook
+      </div>
       <div class="subtitle">
-        a 2020 election tracker
+        an election tracker
       </div>
     </div>
   </div>
@@ -25,23 +25,14 @@ export default Vue.extend({})
   justify-content: center;
   align-items: center;
   text-align: center;
+  border: 1px solid black;
 }
 
 .title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
   font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
+  font-size: 42px;
+  /*font-size: 100px;*/
+  color: #526488;
   letter-spacing: 1px;
 }
 

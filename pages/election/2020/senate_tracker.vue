@@ -182,7 +182,7 @@ export default {
         incumbent: { name: "Tom Cotton", party: "R" },
         candidates: [
           { name: "Tom Cotton", party: "R" },
-          { name: "RIcky Dal eHarrington, Jr.", party: "L" },
+          { name: "RIcky Dale Harrington, Jr.", party: "L" },
         ],
       },
       {
